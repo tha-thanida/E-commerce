@@ -1,0 +1,105 @@
+/* พื้นหลังของหน้า Sign Up */
+.login-signup {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(135deg, #f5c6aa, #ffebcd);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* กล่องฟอร์ม */
+.loginsignup-container {
+    width: 400px;
+    background: white;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* หัวข้อ */
+.loginsignup-container h1 {
+    font-size: 32px;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+
+.loginsignup-fields {
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+    gap: 15px;
+    padding: 20px 0;
+}
+
+.loginsignup-fields input {
+    width: 100%; 
+    max-width: 300px; 
+    height: 45px;
+    border-radius: 25px;
+    padding: 10px 15px;
+    border: 1px solid #bbb;
+    outline: none;
+    font-size: 16px;
+    transition: all 0.3s ease;
+}
+
+.loginsignup-fields input:focus {
+    border-color: #ff6b6b;
+    box-shadow: 0px 0px 8px rgba(255, 107, 107, 0.3);
+}
+
+.loginsignup-container button {
+    width: 100%;
+    height: 50px;
+    border: none;
+    background: #ff6b6b;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 25px;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.loginsignup-container button:hover {
+    background: #e64c4c;
+}
+
+/* ข้อความลิงก์ไป Login */
+.loginsignup-login {
+    margin-top: 15px;
+    font-size: 14px;
+    color: #555;
+}
+
+.loginsignup-login span {
+    color: #ff6b6b;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.loginsignup-login span:hover {
+    text-decoration: underline;
+}
+
+/* เช็คบ็อกซ์ Terms & Conditions */
+.loginsignup-area {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 15px;
+    font-size: 13px;
+    color: #666;
+}
+
+.loginsignup-area span {
+    color: #ff6b6b;
+    font-weight: 600;
+    cursor: pointer;
+}
