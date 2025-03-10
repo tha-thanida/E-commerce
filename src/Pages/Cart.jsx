@@ -1,5 +1,5 @@
 import React from 'react';
-import CartItems from '../Components/CartItems/CartItems'; // ตรวจสอบการ import ให้ถูกต้อง
+import CartItems from '../Components/CartItems/CartItems';
 
 const Cart = () => {
   return (

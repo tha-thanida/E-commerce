@@ -6,7 +6,7 @@ export const ShopContext = createContext(null);
 const getDefaultCart = () => {
     let cart = {};
     for (let index = 0; index < all_product.length; index++) {
-        cart[all_product[index].id] = 0;  // ใช้ e.id เป็น key แทนการใช้ index
+        cart[all_product[index].id] = 0;  
     }
     return cart;
 };

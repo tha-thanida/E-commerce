@@ -9,12 +9,12 @@
     padding: 20px 140px;
     margin-top: 300px;
     gap: 20px;
-    background-color: antiquewhite;
+    background-color: #eee;
     border-radius: 40px;
 }
 .newsletter h1{
     color: #090909;
-    font-size: 50px;
+    font-size: 45px;
     font-weight: 600;
 }
 .newsletter p{

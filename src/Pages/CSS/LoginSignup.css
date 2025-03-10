@@ -1,15 +1,16 @@
-/* พื้นหลังของหน้า Sign Up */
+
 .login-signup {
     width: 100%;
     height: 100vh;
-    background: linear-gradient(135deg, #f5c6aa, #ffebcd);
+    background: white;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-/* กล่องฟอร์ม */
 .loginsignup-container {
+    justify-content: center;
+    align-items: center;
     width: 400px;
     background: white;
     padding: 40px;
@@ -18,7 +19,6 @@
     text-align: center;
 }
 
-/* หัวข้อ */
 .loginsignup-container h1 {
     font-size: 32px;
     font-weight: 700;
@@ -48,15 +48,15 @@
 }
 
 .loginsignup-fields input:focus {
-    border-color: #ff6b6b;
-    box-shadow: 0px 0px 8px rgba(255, 107, 107, 0.3);
+    border-color: #000000;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
 }
 
 .loginsignup-container button {
     width: 100%;
     height: 50px;
     border: none;
-    background: #ff6b6b;
+    background: #000000;
     color: white;
     font-size: 18px;
     font-weight: 600;
@@ -67,10 +67,9 @@
 }
 
 .loginsignup-container button:hover {
-    background: #e64c4c;
+    background: #000000;
 }
 
-/* ข้อความลิงก์ไป Login */
 .loginsignup-login {
     margin-top: 15px;
     font-size: 14px;
@@ -78,7 +77,7 @@
 }
 
 .loginsignup-login span {
-    color: #ff6b6b;
+    color: #000000;
     font-weight: 600;
     cursor: pointer;
     transition: all 0.3s ease;
@@ -88,7 +87,7 @@
     text-decoration: underline;
 }
 
-/* เช็คบ็อกซ์ Terms & Conditions */
+
 .loginsignup-area {
     display: flex;
     align-items: center;
@@ -99,7 +98,7 @@
 }
 
 .loginsignup-area span {
-    color: #ff6b6b;
+    color: #000000;
     font-weight: 600;
     cursor: pointer;
 }

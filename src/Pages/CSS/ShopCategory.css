@@ -53,3 +53,53 @@
     cursor: pointer;
     
 }
+/* เรียกใช้ media query เมื่อหน้าจอเล็กกว่า 1024px (แท็บเล็ต) */
+@media (max-width: 1024px) {
+    .shopcategory-indexSort {
+        flex-direction: column; /* ปรับให้องค์ประกอบเรียงแนวตั้ง */
+        align-items: flex-start; /* จัดให้ชิดซ้าย */
+    }
+
+    .shopcategory-sort {
+        width: 100%; /* ปรับให้เต็มความกว้าง */
+        justify-content: center; /* จัดให้อยู่ตรงกลาง */
+    }
+}
+
+/* เรียกใช้ media query เมื่อหน้าจอเล็กกว่า 768px (มือถือ) */
+@media (max-width: 768px) {
+    .shopcategory-banner {
+        width: 95%; /* ลดขนาดเพื่อให้พอดีกับหน้าจอ */
+    }
+
+    .shopcategory-indexSort {
+        max-width: 95%;
+        flex-direction: column;
+        align-items: center; /* จัดให้อยู่ตรงกลาง */
+        text-align: center;
+    }
+
+    .shopcategory-products {
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); /* ลดขนาดกล่องสินค้า */
+        gap: 10px; /* ลดช่องว่างระหว่างสินค้า */
+    }
+
+    .shopcategory-loadmore {
+        width: 200px;
+        height: 50px;
+        margin: 60px auto; /* ลด margin ให้พอดีกับหน้าจอ */
+    }
+}
+
+/* เรียกใช้ media query เมื่อหน้าจอเล็กกว่า 480px (มือถือจอเล็ก) */
+@media (max-width: 480px) {
+    .shopcategory-products {
+        grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); /* ลดขนาดกล่องสินค้าให้พอดีกับมือถือจอเล็ก */
+    }
+
+    .shopcategory-loadmore {
+        width: 180px;
+        height: 45px;
+    }
+}
+
